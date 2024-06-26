@@ -1,4 +1,4 @@
-from os.path import join as pjoin
+import os
 import pandas as pd
 from datetime import datetime
 import requests
@@ -108,6 +108,7 @@ if __name__ == '__main__':
     profiles = extract_profiles_from_urls(Ivory_Coast_URLs)
     df = create_profiles_dataframe(profiles)
 
-    current_date = datetime.datetime.now().strftime("%m_%d_%Y")
-    filename = f'ivory_coast_mathtraining_snapshot_{current_date}.csv'
+    current_date = datetime.now().strftime("%m_%d_%Y")
+    folder = 'snapshots'
+    filename = os.path.join(folder, f'ivory_coast_mathtraining_snapshot_{current_date}.csv')
     df.to_csv(filename)
