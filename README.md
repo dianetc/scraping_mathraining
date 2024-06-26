@@ -7,4 +7,4 @@ Given a students profile url, ``mathtraining_histograms.py`` displays histograms
 ```
 
 
-``ivorian_profiles.py`` scrapes each Ivorian students profile to extract score, number of exercises completed, problems solved and sign up date. This was created by was created by [Hassan Kane](https://www.linkedin.com/in/mohamed-hassan-kane-4b50328a)
+``ivorian_profiles.py`` scrapes each Ivorian students profile to extract score, number of exercises completed, problems solved and sign up date. This was created by [Hassan Kane](https://www.linkedin.com/in/mohamed-hassan-kane-4b50328a)
